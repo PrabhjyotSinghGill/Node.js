@@ -1,5 +1,4 @@
-function echo(name){
-    console.log('Hello'+name);
-}
+var log = require('./logger');
+log = 1;
 
-echo('Grey');
+log('message');
